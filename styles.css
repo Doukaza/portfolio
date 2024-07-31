@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Copyduck;
+    src: url(Copyduck.otf);
+}
+
+body{
+    background-image: url(GIR.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.clear-L{
+    clear: left;
+} 
+h1{
+color: rgb(255, 255, 255);
+font-family: Copyduck;
+text-align: center;
+font-size: 64px;
+}
+h2{
+color: rgb(255,255, 255);
+font-family: decorative;
+}
+p{
+color: rgb(255, 255, 255);
+font-family: decorative;
+font-family: Copyduck;
+}
+/*
+#cat{
+    width: 50%;
+    height:100%;
+    border-radius: 60%;
+    filter: saturate(50%);
+}
+    */
+title{
+    margin-left: 30%;
+    align-content: center; 
+}
+    
+#gir{
+    display: flexbox;
+    margin-left: 30%;
+    width: 45%;
+    height:100%;
+    border-radius: 39%;
+    filter: saturate(50%);
+    align-content: center;
+}
+
+
+.navbar{
+    background: crimson; font-family: calibri; padding-right: 15px;padding-left: 15px;
+    font-family: Copyduck;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: spaceobetween;
+    font-family: Copyduck;
+}
+    
+.logo{
+    font-size: 35px; font-weight: 600; color: rgb(255, 255, 255); 
+    font-family: Copyduck;
+}
+
+li{
+    list-style: none; display: inline-block;
+    font-family: Copyduck;
+}
+li a{
+    color: rgb(103, 14, 228); font-size: 18px; font-weight: bold; margin-right: 25px;
+    font-family: Copyduck;
+}
+
+#About-me{
+    background-color: rgba(8, 169, 8, 0.631);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 7px groove rgb(16, 235, 16);
+    border-bottom: 7px ridge green;
+    width: 98%;
+    margin-left: 20px;
+}
+#Experience{
+    background-color: rgba(8, 169, 8, 0.631);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 7px groove rgb(16, 235, 16);
+    border-bottom: 7px ridge green;
+    width: 98%;
+    margin-left: 20px;
+}
+#Goals{
+    background-color: rgba(8, 169, 8, 0.631);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 7px groove rgb(16, 235, 16);
+    border-bottom: 7px ridge green;
+    width: 98%;
+    margin-left: 20px;
+}
+#Portfolio{
+    background-color: rgba(8, 169, 8, 0.631);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 7px groove rgb(16, 235, 16);
+    border-bottom: 7px ridge green;
+    width: 98%;
+    margin-left: 20px;
+}
+div.gallery{
+    width: 280px;
+    margin: 20px;
+    float: left;
+}
+div.gallery-desc{
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(8, 169, 8, 0.631);
+    border-top: 7px groove rgb(16, 235, 16);
+    border-bottom: 7px ridge green;
+    font-family: Copyduck;
+}
+div.gallery img{
+    width: 100%;
+    height: 190px;
+    border: 3px solid #000;
+}
+
+/*hover effects
+div.gallery:hover{
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    float: left;
+}
+*/
+div.gallery-desc:hover{
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(0, 255, 0);
+    border-top: 7px groove rgb(0, 255, 0);
+    border-bottom: 7px ridge green;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+   
